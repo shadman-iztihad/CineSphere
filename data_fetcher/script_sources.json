@@ -1,0 +1,39 @@
+{
+    "script_sources": [
+        {
+            "name": "IMSDB",
+            "base_url": "https://imsdb.com/all-scripts.html",
+            "script_selector": "td.scrtext pre",
+            "link_selector": "p a[href^='/Movie Scripts/']",
+            "script_prefix": "https://imsdb.com"
+        },
+        {
+            "name": "Awesome Film",
+            "base_url": "https://www.awesomefilm.com/",
+            "script_selector": "pre",
+            "link_selector": "td.tbl a",
+            "script_prefix": "https://www.awesomefilm.com/"
+        },
+        {
+            "name": "The Daily Script",
+            "base_url": "https://www.dailyscript.com/movie.html",
+            "script_selector": "pre",
+            "link_selector": "a.style10",
+            "script_prefix": "https://www.dailyscript.com/"
+        },
+        {
+            "name": "Screenplays For You",
+            "base_url": "https://sfy.ru/",
+            "script_selector": null,
+            "link_selector": "a[href$='.pdf']",
+            "script_prefix": "https://sfy.ru"
+        },
+        {
+            "name": "Movie Scripts and Screenplays",
+            "base_url": "http://www.moviescriptsandscreenplays.com/",
+            "script_selector": null,
+            "link_selector": "td a[href$='.txt']",
+            "script_prefix": ""
+        }
+    ]
+}
